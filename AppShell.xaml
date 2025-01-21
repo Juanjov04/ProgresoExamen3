@@ -9,7 +9,7 @@
 
     <TabBar>
         <Tab
-            Title="Paises"
+            Title="Buscar Paises"
             Icon="flag.png">
             <ShellContent
                 Title="Paises"
@@ -17,11 +17,11 @@
         </Tab>
         
         <Tab
-            Title="Inicio"
+            Title="Informacion de los paises"
             Icon="home.png">
             <ShellContent
                 Title="Inicio"
-                ContentTemplate="{DataTemplate local:MainPage}" />
+                ContentTemplate="{DataTemplate local:Buscar}" />
         </Tab>
         
     </TabBar>
